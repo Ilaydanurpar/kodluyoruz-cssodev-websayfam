@@ -1,0 +1,105 @@
+/*Sayfanın genel hatları,arka planı, yazı tipi gibi bilgiler için*/
+body{
+    background-image: url(images/30cicek_desenli_duvar_kagitlari.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Asıl yanın olcağı yerin genel hatları*/
+section{
+    background-color: white;
+    opacity: 0.9;
+    margin: 90px 200px;
+    padding:10px;
+}
+
+/*Tüm sayfaların ana başlığı*/
+.baslik1{
+    text-align: center;
+    font-family:Lucida Handwriting, cursive; 
+    font-size: 30px;
+    color:purple;
+    text-shadow: 2px 2px black;
+}
+
+/* Vertical Navigasyon bar*/
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.list{
+    float: right;
+}
+
+.list .link {
+    display: block;
+    color: purple;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.list .link:hover {
+    text-decoration: underline;
+}
+ /*İkinci başlıklar*/
+.baslik2{
+    font-size: 20px;
+    color: rgb(150, 85, 150);
+}
+ /*Tablolar için düzenleme*/
+table, tr, td{
+    border: 1px solid;
+    text-align: center;
+}
+
+tr:first-child{
+    background-color:indianred;
+    color: white;
+}
+ /*Üçüncü başlıklar*/
+.baslik3 {
+    font-size: 16px;
+    color:  rgb(150, 85, 150);
+}
+ /*İletişim sayfası için düzenleme*/
+.name {
+    margin: 10px;
+    padding: 2px;
+}
+
+.email{
+    margin: 10px;
+    padding: 2px;
+}
+
+.subject{
+    margin: 10px;
+    padding: 2px;
+}
+
+.message {
+    margin: 10px;
+    padding: 2px;
+}
+
+.button {
+    margin: 10px;
+    padding: 2px;
+}
+
+.box {
+ width: 600px;
+ height: 20px;
+}
+
+#textarea {
+    width:600px;
+    height: 80px;
+}
